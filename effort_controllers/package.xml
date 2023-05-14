@@ -39,12 +39,12 @@
   <build_export_depend>hardware_interface</build_export_depend>
   <build_export_depend>std_msgs</build_export_depend>
 
-  <test_depend>rostest</test_depend>
-  <test_depend>controller_manager</test_depend>
+  <build_depend>rostest</build_depend>
+  <build_depend>controller_manager</build_depend>
   <test_depend>joint_state_controller</test_depend>
   <test_depend>robot_state_publisher</test_depend>
-  <test_depend>rosgraph_msgs</test_depend>
-  <test_depend>sensor_msgs</test_depend>
+  <build_depend>rosgraph_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
   <test_depend>xacro</test_depend>
 
   <export>

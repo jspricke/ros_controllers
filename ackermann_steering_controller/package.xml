@@ -36,12 +36,12 @@
   <exec_depend>pluginlib</exec_depend>
   <exec_depend>liburdfdom-dev</exec_depend>
 
-  <test_depend>controller_manager</test_depend>
-  <test_depend>controller_manager_msgs</test_depend>
-  <test_depend>geometry_msgs</test_depend>
-  <test_depend>rostest</test_depend>
-  <test_depend>std_msgs</test_depend>
-  <test_depend>std_srvs</test_depend>
+  <build_depend>controller_manager</build_depend>
+  <build_depend>controller_manager_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>rostest</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>std_srvs</build_depend>
   <test_depend>xacro</test_depend>
 
   <export>
